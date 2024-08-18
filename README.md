@@ -1,10 +1,12 @@
-# Project: ML Based Book Recommender System ! | Collaborative Filtering Based
+# Project: ML Based Book Recommender System ! 
 
-<img src="templates/intro.jpeg" alt="workflow" width="70%">
 
-Recommendation systems are becoming increasingly important in today’s extremely busy world. People are always short on time with the myriad tasks they need to accomplish in the limited 24 hours. Therefore, the recommendation systems are important as they help them make the right choices, without having to expend their cognitive resources.
+# BookMaven
+![WhatsApp Image 2024-08-18 at 12 02 09 (3)](https://github.com/user-attachments/assets/2a36f188-f711-4f0f-9a4d-527d0e8156e8)
 
-The purpose of a recommendation system basically is to search for content that would be interesting to an individual. Moreover, it involves a number of factors to create personalised lists of useful and interesting content specific to each user/individual. Recommendation systems are Artificial Intelligence based algorithms that skim through all possible options and create a customized list of items that are interesting and relevant to an individual. These results are based on their profile, search/browsing history, what other people with similar traits/demographics are watching, and how likely are you to watch those movies. This is achieved through predictive modeling and heuristics with the data available.
+In the digital age, the sheer volume of available books can make it challenging for readers to discover titles that match their interests. A Book Recommendation System addresses this issue by leveraging machine learning techniques to analyze user preferences and suggest books that align with their tastes.
+
+Our machine learning-based Book Recommendation System aims to provide personalized book suggestions by learning from user behavior, such as past ratings, reviews, and genre preferences. By utilizing advanced algorithms, this system not only enhances the reader's experience but also helps in uncovering hidden gems that might otherwise go unnoticed.
 
 
 # Note:
@@ -27,28 +29,9 @@ If you want to understand this entire project overflow, please refer the jupyter
 - These systems make recommendations using a user's item and profile features. They hypothesize that if a user was interested in an item in the past, they will once again be interested in it in the future
 	
 - One issue that arises is making obvious recommendations because of excessive specialization (user A is only interested in categories B, C, and D, and the system is not able to recommend items outside those categories, even though they could be interesting to them).
+  
 
-### 2 ) Collaborative Based :
-		
-- Collaborative filtering systems, which are based on user-item interactions.
-	
-- Clusters of users with same ratings , similar users .
-	
-- Book recommendation , so use cluster mechanism .
-	
-- We take only one parameter , ratings or comments .
-	
-- In short, collaborative filtering systems are based on the assumption that if a user likes item A and another user likes the same item A as well as another item, item B, the first user could also be interested in the second item . 
-	
-- Issues are :
-
-	- User-Item nXn matrix , so computationally expensive .
-
-	- Only famous items will get reccomended .
-
-	- New items might not get reccomended at all .   
-
-### 3 ) Hybrid Based :
+### 2 ) Hybrid Based :
 	
 - Hybrid systems, which combine both types of information with the aim of avoiding problems that are generated when working with just one kind.
 
@@ -64,29 +47,14 @@ This is a collaborative filtering based books recommender system & a streamlit w
 
 # Demo:
 
-<img src="templates/1.png" alt="workflow" width="70%">
-
-<img src="templates/2.png" alt="workflow" width="70%">
+https://github.com/user-attachments/assets/6b15e930-feb7-42bb-9473-58fe68d5c847
 
 
 
 # Dataset has been used:
 
-* [Dataset link](https://www.kaggle.com/ra4u12/bookrecommendation)
-
-# Concept used to build the model.pkl file : NearestNeighbors
-
-1 . Load the data
-	
-2 . Initialise the value of k
-
-3 . For getting the predicted class, iterate from 1 to total number of training data points
-
-4 . Calculate the distance between test data and each row of training data. Here we will use Euclidean distance as our distance metric since it’s the most popular method. 
-
-5 . Sort the calculated distances in ascending order based on distance values
-	
-6 . Get top k rows from the sorted array
+* [Dataset link](https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data)
+  ![WhatsApp Image 2024-08-18 at 12 02 09](https://github.com/user-attachments/assets/5a945076-d627-40ad-810d-1cbd00babe6e)
 
 # Built With
 1. streamlit
