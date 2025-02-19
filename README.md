@@ -1,5 +1,5 @@
-## BookMaven 🔮🪄
-# Project: ML Based Book Recommender System ! 
+# BookMaven 🔮🪄
+## Project: ML Based Book Recommender System ! 
 ![WhatsApp Image 2024-08-18 at 12 02 09 (3)](https://github.com/user-attachments/assets/2a36f188-f711-4f0f-9a4d-527d0e8156e8)
 
 In the digital age, the sheer volume of available books can make it challenging for readers to discover titles that match their interests. A Book Recommendation System addresses this issue by leveraging machine learning techniques to analyze user preferences and suggest books that align with their tastes.
